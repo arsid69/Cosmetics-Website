@@ -1,0 +1,23 @@
+# This is a Node.js/React project, not Python.
+# To install dependencies, use one of the following commands:
+
+# Option 1: Using npm (standard Node.js package manager)
+# npm install
+
+# Option 2: Using bun (faster package manager)
+# bun install
+
+# Option 3: Using yarn (alternative package manager)
+# yarn install
+
+# Required Node.js version: 18.x or higher
+# Required npm version: 9.x or higher
+
+# Environment setup:
+# 1. Copy .env.example to .env (if it exists)
+# 2. Update environment variables in .env file
+# 3. Install dependencies with your preferred package manager
+# 4. Run development server: npm run dev (or bun run dev)
+
+# Note: Node.js doesn't use virtual environments like Python.
+# Dependencies are installed in the local node_modules folder.

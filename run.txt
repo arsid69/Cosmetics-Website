@@ -1,0 +1,3 @@
+Set-Location "C:\Users\Arsi\Desktop\Projects\chic-boutique-online-main\chic-boutique-online-main\chic-boutique-online-main"; npm run dev
+
+cd "C:\Users\Arsi\Desktop\Projects\chic-boutique-online-main\chic-boutique-online-main\chic-boutique-online-main"; npm run dev

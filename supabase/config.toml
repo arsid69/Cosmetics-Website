@@ -1,0 +1,28 @@
+project_id = "oyjxaeaqzwnfsddrcdvu"
+
+[auth]
+# Enable leaked password protection
+[auth.password]
+min_length = 6
+required_characters = ["lowercase", "uppercase", "numbers"]
+
+[auth.email]
+enable_confirmations = true
+
+[auth.rate_limit]
+# Rate limiting for authentication endpoints
+[auth.rate_limit.email]
+enabled = true
+requests_per_second = 5
+
+[auth.rate_limit.sms]
+enabled = true
+requests_per_second = 3
+
+[auth.rate_limit.anonymous]
+enabled = true
+requests_per_second = 10
+
+# Enable leaked password protection
+[auth.security]
+enable_hibp = true  # Have I Been Pwned integration
